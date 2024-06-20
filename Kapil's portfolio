@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapil's Portfolio Website</title>
+    
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2D142C;
+    color: #blue;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #565A5B;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project {
+    background-color: #EE4540;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.project img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.project h2 {
+    margin-top: 0;
+}
+form {
+    background-color: #98ABA7;
+    padding: 5em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+          
+        <section id="about">
+        
+
+<style>
+
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:black;
+  color: black;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  align-items: fit;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.name {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.title {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.description {
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: black;
+}
+
+
+
+</style>
+<div class="container">
+  <div class="card">
+    <img src="C:\Users\Kapil Vishwakarma\Pictures\Screenshots\Screenshot 2024-04-25 125631.png" alt="Profile Picture"class="profile-image" >
+    
+    <h2 class="title">Hello , <br>I'm Kapil Vishwakarma</h2>
+    <h3 class="description">Bachelor of Computer Applications</h3>
+    <p class="description"> 
+
+During my academic journey, I have gained proficiency in various programming languages, including C,and Python. I have also developed a solid understanding of web development technologies such as HTML, CSS, JavaScript .My academic projects have equipped me with a solid foundation web development. I am interested in web and mobile app development. I am a graphic designer. As a proactive learner and team player, I am eager to contribute to innovative projects and continuously expand my technical knowledge. Explore my portfolio to see my projects and experiences.</p>
+  </div>
+  <div class="circle-1"></div>
+  <div class="circle-2"></div>
+  <div class="circle-3"></div>
+</div>
+        </section>
+
+
+
+
+
+
+
+
+        <section id="skills">
+           <style>
+body {
+  background-color: #EE4540;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+ display: centre;
+  align-items: left;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0px;
+  background-color: #EE4540;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 20px;
+ margin-left: 300px;
+margin-right: 300px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.skill-title {
+  font-weight: bold;
+}
+
+.skill-description {
+  font-size: 14px;
+}
+
+</style>
+
+<div class="container">
+  <h1>Personal Skills</h1>
+
+<ul><p><br><br></p>
+  <li>
+    <div class="skill">
+    <div>
+      <h2 class="skill-title">Web Development</h2>
+    </div>
+     </div></li>
+
+ <li><div class="skill">
+    <div>
+      <h2 class="skill-title">Graphic Designer</h2>
+      <p class="skill-description">Tools :<br><br> Canva<br> Adobe <br> Figma <br></p>
+    </div>
+     </div></li>
+
+
+  <li> <div class="skill">
+    <div>
+      <h2 class="skill-title">Content Writing </h2>
+      <p class="skill-description">Tools :<br><br> Google Docs<br> Word<br></p>
+    </div></li></ul>
+
+     </div>
+
+</div>
+
+        </section>
+
+
+
+
+
+
+        <section id="projects">
+           <style>
+body {
+  background-color: grey;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color:#98ABA7
+;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color:black;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.section-description {
+  font-size: 14px;
+  color:black;
+}
+
+.image-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.image {
+  width: 100%;
+}
+</style>
+
+<div class="container">
+  <h1>Work Experience</h1>
+
+ 
+   <p> <div>
+      <div class="section-title">Branding</div>
+      <div class="section-description">Have done comission work including Merchandise Design , Logos , You Tube Thumbnails</div>
+    </div></p>
+<p>
+    <div>
+      <div class="section-title">Web design</div>
+      <div class="section-description">Academic Projects , My Portfolio website</div>
+    </div></p>
+<p>
+    <div>
+      <div class="section-title">Content Writing </div>
+      <div class="section-description">Freelance comission works.</div>
+    </div></p>
+  </div>
+
+ </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+        <section id="contact">
+            <h1>Get in Touch</h1>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="mobile">Mobile Number:</label>
+                <input type="tel" id="mobile" name="mobile"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="organization">Organization:</label>
+                <input type="text" id="organization" name="organization"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+ <footer>
+        <p> 2024 Kapil's Portfolio Website</p>
+    </footer>
+
+    </main>
+
+
+       <script>
+
+
+// Capture user click movements
+document.addEventListener('dblclick', function(event) {
+    if (event.target.tagName === 'LI' && event.target.parentNode.id === 'skill-list') {
+        const skill = event.target.getAttribute('data-skill');
+        const skillDetail = document.getElementById('skill-detail');
+        skillDetail.innerHTML = `
+            <h2>${skill}</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+        `;
+        skillDetail.style.display = 'block';
+    }
+});
+
+// Form submission handler
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const name = formData.get('name');
+    const mobile = formData.get('mobile');
+    const email = formData.get('email');
+    const organization = formData.get('organization');
+    // Send message to server or email
+    console.log(`Message from ${name} (${email}) from ${organization}: ${mobile}`);
+    // Reset form
+    event.target.reset();
+});
+
+// Add event listener to each skill list item
+const skillListItems = document.querySelectorAll('#skill-list li');
+skillListItems.forEach(function(skillListItem) {
+    skillListItem.addEventListener('click', function(event) {
+        console.log(`Clicked on ${event.target.textContent}`);
+    });
+});
+
+</script>
+
+</body>
+</html>
